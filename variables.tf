@@ -80,3 +80,7 @@ variable "enable_default_security_group_with_custom_rules" {
   default     = true
 }
 
+variable "enabled" {
+  type        = bool
+  default     = true
+}
